@@ -36,7 +36,7 @@ void draw(){
         
         // Set the maximum iterations of the calculations before determining divergence
         // This is also the accuracy setting
-        maxI = 500;
+        maxI = 1000;
         
         double aTemp = 0;
         // Run Mandlebrot set equation, z(n+1) = z(n)^2 + c
